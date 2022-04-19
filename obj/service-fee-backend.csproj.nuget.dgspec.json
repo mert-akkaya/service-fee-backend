@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\service-fee-backend\\service-fee-backend.csproj": {}
+    "C:\\Users\\User\\Desktop\\service-fee-backend\\service-fee-backend.csproj": {}
   },
   "projects": {
-    "C:\\service-fee-backend\\service-fee-backend.csproj": {
+    "C:\\Users\\User\\Desktop\\service-fee-backend\\service-fee-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\service-fee-backend\\service-fee-backend.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\service-fee-backend\\service-fee-backend.csproj",
         "projectName": "service-fee-backend",
-        "projectPath": "C:\\service-fee-backend\\service-fee-backend.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\service-fee-backend\\service-fee-backend.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\service-fee-backend\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\service-fee-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

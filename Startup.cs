@@ -42,9 +42,7 @@ namespace service_fee_backend
             services.AddSingleton<IFeeCustomerDal, EfFeeCustomerDal>();
             services.AddSingleton<IWritedCustomerService, WritedCustomerService>();
             services.AddSingleton<IWritedCustomerDal, EfWritedCustomerDal>();
-            services.AddHttpsRedirection(options => { options.HttpsPort = 443; })
-               .AddMvcCore()
-               .AddCors(options =>
+            services.AddCors(options =>
                {
                    options.AddPolicy("CorsPolicy",
                        builder => builder.AllowAnyOrigin()
@@ -52,13 +50,6 @@ namespace service_fee_backend
                        .AllowAnyHeader());
                });
 
-            services.Configure<ForwardedHeadersOptions>(options =>
-        {
-            options.ForwardedHeaders = ForwardedHeaders.XForwardedFor |
-                                       ForwardedHeaders.XForwardedProto;
-            options.KnownNetworks.Clear();
-            options.KnownProxies.Clear();
-        });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

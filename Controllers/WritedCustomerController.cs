@@ -17,10 +17,11 @@ namespace Controllers
             _customerService = service;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public string GetAll()
         {
-           var result =_customerService.GetAll();
-          return Ok(result);
+          //  var result =_customerService.GetAll();
+           string dem = "seiasmiemaismea";
+          return dem;
         }
 
         [HttpPost]
